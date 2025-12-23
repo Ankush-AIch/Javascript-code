@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+}
+
+.card {
+    background-color: rgb(15,15,15);
+    width: 700px;
+    border-radius: 6px;
+    height: 125px;
+    display: flex;
+    
+}
+
+img {
+    border-radius: 10px;
+}
+.image {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.title {
+    text-transform: capitalize;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    top: 1px;
+}
+.channel {
+    position: absolute;
+    top: 60px;
+}
+.channel p {
+    color: rgb(166,166,166);
+    font-size: 14px;
+}
+.another {
+    display: flex;
+    flex-direction: column;
+    color: rgb(166,166,166);
+}
+
+.views {
+    position: relative;
+}
+.months {
+    position: absolute;
+    top: 100px;
+    left: 265px;
+}
